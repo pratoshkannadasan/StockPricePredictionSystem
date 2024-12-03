@@ -7,22 +7,7 @@ Real-Time Alerts: Send email alerts when the stock price reaches a specified thr
 Multiple Models: ARIMA and LSTM models for comparison.
 Visualization: Graphical representation of predicted and actual stock prices.
 Configurable: Easily configurable stock symbol, start date, end date, and alert thresholds.
-Project Structure
-plaintext
-Copy code
-stock_price_prediction/
-├── main.py                   # Main entry point
-├── config.py                 # Configuration file
-├── models/                   # Directory for model implementations
-│   ├── arima_model.py        # ARIMA model implementation
-│   └── lstm_model.py         # LSTM model implementation
-├── alerts/                   # Directory for alerts
-│   └── price_alert.py        # Price alert system
-├── utils/                    # Utility functions (e.g., data fetching, preprocessing)
-│   ├── data_fetcher.py       # Fetch stock data
-│   └── visualizer.py         # Visualization functions
-├── requirements.txt          # Dependencies
-└── README.md                 # Project overview
+
 Requirements
 This project requires the following Python libraries:
 
